@@ -19,7 +19,7 @@ stages:
         steps:
         - script: |
            chmod +x /home/ubuntu/myagent/_work/3/s/test.sh
-           ./home/ubuntu/myagent/_work/3/s/test.sh
+           ./test.sh
 
 
 
