@@ -17,7 +17,9 @@ stages:
     jobs:
       - job : RUN
         steps:
-          - script: ./test.sh
+        - script: |
+            runcmd: chmod +x /home/ubuntu/myagent/_work/3/s/test.sh
+            - /home/ubuntu/myagent/_work/3/s/test.sh
 
 
 
