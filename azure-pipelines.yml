@@ -20,6 +20,14 @@ stages:
         - script: |
            chmod +x /home/ubuntu/myagent/_work/3/s/test.sh
            ./test.sh
+  - stage: Deploy
+    jobs:
+      - job : DeploayApp
+        steps:
+         - script: |
+            echo "sudheer" >> test.sh
+            cat test.sh
+
 
 
 
