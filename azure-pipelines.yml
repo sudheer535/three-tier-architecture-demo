@@ -27,6 +27,8 @@ stages:
          - script: |
             echo "sudheer" >> test.sh
             cat test.sh
+        displayName: Terminal
+      
 
 
 
